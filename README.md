@@ -1,59 +1,293 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🛰️ Domain Status Monitoring Platform  
+### A Complete Solution for Domain Health, DNS, SSL & Filtering Monitoring  
+**(English + فارسی)**
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## About Laravel
+# 🌐 English Version
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This project is a comprehensive platform for **managing and monitoring domains**, helping website owners, developers, and DevOps teams track domain health, filtering status, DNS records, SSL expiration, and service availability in real time.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The platform includes:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **A Core Laravel Application**  
+- **A Public REST API**  
+- **An Official Laravel Package**  
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 📦 Components
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### **1️⃣ Core Laravel Application**
+Features:
 
-## Laravel Sponsors
+- Domain management  
+- Filtering status check (Iran + global blocklists)  
+- DNS record validation  
+- SSL expiration & certificate chain validation  
+- HTTP response monitoring  
+- Port & ping checks  
+- Full monitoring history  
+- Charts, analytics, and reports  
+- Notification system (Email, SMS, Telegram, Webhook, Slack)  
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+### **2️⃣ Public REST API**
+A modern JSON API for integration:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- Add domains  
+- Get domain health status  
+- Retrieve history & logs  
+- Manage domains via API  
+- Integration for DevOps & automation pipelines  
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### **3️⃣ Official Laravel Package**
+A ready-to-use Laravel package:
 
-## Code of Conduct
+- Install via Composer  
+- Adds a complete dashboard
+- Manage domains from any Laravel project  
+- Auto-connects to main API  
+- Publishable config + UI  
+- Fully extendable  
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 🎯 Vision & Goals
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Provide an industry-level domain monitoring platform  
+- Prevent downtime by early detection  
+- Offer actionable insights & reporting  
+- Provide a professional public API  
+- Create a fast-install Laravel package for broad usage  
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🧭 Roadmap
+
+- [ ] Architecture design  
+- [ ] Build main Laravel application  
+- [ ] Database & migrations  
+- [ ] Implement monitoring services (DNS/SSL/HTTP/filter)  
+- [ ] Develop REST API  
+- [ ] Notification channels  
+- [ ] Build admin dashboard
+- [ ] Official Laravel package  
+- [ ] Automated tests (Pest/PHPUnit)  
+- [ ] Docker support  
+- [ ] CI/CD pipelines  
+- [ ] Beta release  
+- [ ] Stable v1.0 release  
+
+---
+
+## 🛠 Technologies
+
+- Laravel 12  
+- PHP 8.4+  
+- MySQL / PostgreSQL  
+- Redis  
+- Blade / Vue / React / Filament  
+- RESTful API  
+- Docker  
+- Pest / PHPUnit  
+
+---
+
+## 📊 Monitoring Capabilities
+
+| Capability | Description |
+|-----------|-------------|
+| **Filter Check** | Check domain filtering status (Iran + global lists) |
+| **DNS Health** | Validate A, AAAA, NS, MX, CNAME, TXT records |
+| **SSL Check** | SSL expiration, issuer, health |
+| **HTTP Check** | Status code, latency, timeout |
+| **Port Monitoring** | Check target ports (80, 443, etc.) |
+| **Uptime Logging** | Save history & generate graphs |
+
+---
+
+## 🔔 Notifications
+
+- Email  
+- SMS  
+- Telegram Bot  
+- Webhook  
+- Slack / Discord  
+
+---
+
+## 📁 Project Structure
+
+
+---
+
+## 🚀 Final Deliverables
+
+- Full-featured web dashboard  
+- REST API  
+- Laravel package  
+- Documentation  
+- Test suite  
+- CI/CD  
+
+---
+
+## 🤝 Contributing
+
+Contributions and feature requests are welcome!  
+Please review the roadmap & existing issues before contributing.
+
+---
+
+## 📄 License  
+MIT License
+
+---
+
+---
+
+# 🇮🇷 نسخه فارسی
+
+این پروژه یک پلتفرم کامل برای **مدیریت و مانیتورینگ دامنه‌ها** است که به صاحبان وب‌سایت‌ها، برنامه‌نویسان و تیم‌های DevOps کمک می‌کند وضعیت سلامت دامنه، DNS، SSL، فیلترینگ و پاسخ‌دهی سرویس را به‌صورت لحظه‌ای بررسی کنند.
+
+این پلتفرم شامل موارد زیر است:
+
+- **هسته اصلی (اپلیکیشن لاراول)**  
+- **API عمومی (REST)**  
+- **پکیج رسمی لاراول**  
+
+---
+
+## 📦 اجزا
+
+### **1️⃣ اپلیکیشن اصلی لاراول**
+امکانات:
+
+- مدیریت دامنه‌ها  
+- بررسی فیلترینگ (ایران + لیست‌های جهانی)  
+- بررسی رکوردهای DNS  
+- بررسی SSL و تاریخ انقضا  
+- بررسی وضعیت HTTP و زمان پاسخ  
+- بررسی پورت‌ها  
+- ذخیره تاریخچه مانیتورینگ  
+- فایل گزارش‌ها و نمودارها  
+- سیستم نوتیفیکیشن: Email, SMS, Telegram, Webhook, Slack  
+
+---
+
+### **2️⃣ API عمومی**
+API استاندارد برای اتصال سیستم‌ها و ابزارهای دیگر:
+
+- افزودن دامنه  
+- دریافت وضعیت سلامت دامنه  
+- دریافت گزارش‌ها و تاریخچه  
+- مدیریت دامنه‌ها از طریق API  
+- مناسب DevOps و سیستم‌های اتوماسیون  
+
+---
+
+### **3️⃣ پکیج رسمی لاراول**
+پکیجی برای استفاده سریع در هر پروژه Laravel:
+
+- نصب آسان با Composer  
+- اضافه شدن داشبورد کامل داخل پروژه  
+- مدیریت دامنه‌ها  
+- اتصال خودکار به API  
+- تنظیمات قابل انتشار  
+- قابل توسعه و سفارشی‌سازی  
+
+---
+
+## 🎯 اهداف پروژه
+
+- ارائه یک راهکار حرفه‌ای برای مانیتورینگ دامنه‌ها  
+- جلوگیری از Down شدن سایت‌ها  
+- ارائه گزارش، تحلیل و Insight واقعی  
+- ساخت API رسمی  
+- ساخت یک پکیج سریع‌نصب برای جامعه لاراول  
+
+---
+
+## 🧭 نقشه راه
+
+- [ ] طراحی معماری  
+- [ ] ساخت اپلیکیشن اصلی  
+- [ ] طراحی دیتابیس و مایگریشن‌ها  
+- [ ] پیاده‌سازی سرویس‌های مانیتورینگ  
+- [ ] ساخت API عمومی  
+- [ ] پیاده‌سازی نوتیفیکیشن‌ها  
+- [ ] ساخت داشبورد مدیریت  
+- [ ] ساخت پکیج رسمی Laravel  
+- [ ] نوشتن تست‌ها  
+- [ ] Docker  
+- [ ] CI/CD  
+- [ ] انتشار نسخه Beta  
+- [ ] انتشار نسخه Stable v1.0  
+
+---
+
+## 🛠 تکنولوژی‌ها
+
+- Laravel 12  
+- PHP 8.4+  
+- MySQL / PostgreSQL  
+- Redis  
+- Blade / Vue / React / Filament  
+- REST API  
+- Docker  
+- Pest / PHPUnit  
+
+---
+
+## 📊 قابلیت‌های مانیتورینگ
+
+| قابلیت | توضیح |
+|--------|--------|
+| **بررسی فیلترینگ** | بررسی فیلتر بودن دامنه در ایران و لیست‌های جهانی |
+| **وضعیت DNS** | بررسی A, AAAA, NS, MX, CNAME, TXT |
+| **چک SSL** | انقضا، issuer، سلامت |
+| **چک HTTP** | وضعیت پاسخ، سرعت، timeout |
+| **مانیتورینگ پورت** | بررسی پورت‌های مهم مانند 80/443 |
+| **تاریخچه سلامت** | ذخیره و نمایش تاریخچه و نمودارها |
+
+---
+
+## 🔔 نوتیفیکیشن‌ها
+
+- Email  
+- SMS  
+- Telegram Bot  
+- Webhook  
+- Slack / Discord  
+
+---
+
+## 📁 ساختار پروژه
+
+
+---
+
+## 🚀 خروجی نهایی
+
+- داشبورد کامل  
+- API  
+- پکیج Laravel  
+- مستندات  
+- تست‌ها  
+- CI/CD  
+
+---
+
+## 🤝 مشارکت
+
+از هرگونه مشارکت، Issue و PR استقبال می‌شود.  
+لطفاً قبل از شروع، Roadmap و Issues را بررسی کنید.
+
+---
+
+## 📄 لایسنس  
+MIT License
