@@ -68,7 +68,7 @@ A ready-to-use Laravel package:
 
 ## 🧭 Roadmap
 
-- [ ] Architecture design  
+- [ ] Architecture design  (In progress)
 - [ ] Build main Laravel application  
 - [ ] Database & migrations  
 - [ ] Implement monitoring services (DNS/SSL/HTTP/filter)  
@@ -214,7 +214,7 @@ API استاندارد برای اتصال سیستم‌ها و ابزارهای
 
 ## 🧭 نقشه راه
 
-- [ ] طراحی معماری  
+- [ ] طراحی معماری (در حال انجام) 
 - [ ] ساخت اپلیکیشن اصلی  
 - [ ] طراحی دیتابیس و مایگریشن‌ها  
 - [ ] پیاده‌سازی سرویس‌های مانیتورینگ  
